@@ -24,11 +24,18 @@ export const Container = styled.header`
 export const LinksContent = styled.div`
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   margin-right: 40px;
 
+  div {
+    background-color: var(--paper);
+    border-radius: 100%;
+    padding: 5px;
+  }
+
   a {
-    margin: 20px;
+    margin: 20px 5px 20px 20px;
     color: var(--paper);
     text-shadow: 5px 0px 8px rgba(150, 150, 150, 0.5);
     display: flex;
