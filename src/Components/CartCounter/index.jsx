@@ -12,7 +12,7 @@ const CartCounter = () => {
     <Container>
       <h2>Resumo do pedido</h2>
       <p>Quantidade: {counter}</p>
-      <span>Total: {amount} BRL</span>
+      <span>Total: {amount.toFixed(2)} BRL</span>
     </Container>
   );
 };
