@@ -26,4 +26,10 @@ export const Container = styled.div`
     margin-bottom: 10px;
     color: var(--charocoal);
   }
+
+  span {
+    font-weight: bold;
+    color: var(--pale-gold);
+    margin-top: 20px;
+  }
 `;
