@@ -12,7 +12,7 @@ const initialState = [
       "https://d289ufozrugj3t.cloudfront.net/Custom/Content/Products/98/54/985439_colar-ouro-18k-ponto-de-luz-azul-45cm-145-gramas-650_m1_637054308369178876.jpg",
   },
   {
-    name: "BRINCO ARGOLA COM PEDRA VERDE OVAL EM PRATA",
+    name: "Brinco Argola Com Pedra Verde Oval Em Prata",
     price: 110.9,
     image:
       "https://d15tp84buh2rvk.cloudfront.net/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/i/m/img_2641_8.jpg",

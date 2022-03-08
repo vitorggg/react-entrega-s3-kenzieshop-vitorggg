@@ -1,12 +1,14 @@
 import { Container } from "./styles";
 import ProdCard from "../ProdCard";
-import products from "../../Services/products";
+import { useSelector } from "react-redux";
 
 const Vitrine = () => {
+  const prods = useSelector((store) => store.products);
+
   return (
     <Container>
       <ul>
-        {products.map((product) => (
+        {prods.map((product) => (
           <li key={product.name}>
             <ProdCard prod={product} />
           </li>
