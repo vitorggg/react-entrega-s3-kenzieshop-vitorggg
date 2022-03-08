@@ -1,6 +1,6 @@
 import { Container, LinksContent } from "./styles";
 import { Link } from "react-router-dom";
-import { FiLogIn, FiShoppingBag } from "react-icons/fi";
+import { FiHome, FiShoppingBag } from "react-icons/fi";
 
 const Header = () => {
   return (
@@ -12,8 +12,8 @@ const Header = () => {
           Carrinho
         </Link>
         <Link to="/">
-          <FiLogIn />
-          Login
+          <FiHome />
+          Home
         </Link>
       </LinksContent>
     </Container>
