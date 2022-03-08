@@ -1,16 +1,19 @@
 import Button from "../Button";
 import { Container } from "./styles";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addCart } from "../../store/modules/cart/actions";
 
 const ProdCard = ({ prod }) => {
   const dispacht = useDispatch();
 
+  const prodsCart = useSelector((store) => store.cart);
+
   const price = Number(prod.price).toFixed(2);
 
   const handleProduct = () => {
-    localStorage.setItem("@KenzieShop:prod", JSON.stringify(prod));
-    dispacht(addCart(prod));
+    if (!prodsCart.includes(prod)) {
+      dispacht(addCart(prod));
+    }
   };
 
   return (
