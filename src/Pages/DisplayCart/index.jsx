@@ -1,5 +1,13 @@
+import Header from "../../Components/Header";
+import VitrineCart from "../../Components/VitrineCart";
+
 const DisplayCart = () => {
-  return <div>DisplayCart</div>;
+  return (
+    <>
+      <Header />
+      <VitrineCart />
+    </>
+  );
 };
 
 export default DisplayCart;
