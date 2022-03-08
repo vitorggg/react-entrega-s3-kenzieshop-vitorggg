@@ -40,6 +40,10 @@ export const LinksContent = styled.div`
     text-shadow: 5px 0px 8px rgba(150, 150, 150, 0.5);
     display: flex;
     align-items: center;
+
+    :hover {
+      color: var(--charocoal);
+    }
   }
 
   svg {

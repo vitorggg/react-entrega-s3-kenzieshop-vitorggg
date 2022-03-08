@@ -61,6 +61,10 @@ export const Container = styled.div`
       color: var(--charocoal);
       text-decoration: underline;
       cursor: pointer;
+
+      :hover {
+        color: var(--silk);
+      }
     }
   }
 `;

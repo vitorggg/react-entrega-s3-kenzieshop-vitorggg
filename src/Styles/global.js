@@ -13,12 +13,6 @@ export default createGlobalStyle`
     --black: #000000;
     --white: #FFFFFF;
 
-    /* --apple: #CA3B0E;
-    --caramel: #ec914c;
-    --sand: #c78559;
-    --wine: #65333C;
-    --grape: #4c2442;
- */
     --pale-gold: #c0B283;
     --silk: #dcd0c0;
     --paper: #f4f4f4;

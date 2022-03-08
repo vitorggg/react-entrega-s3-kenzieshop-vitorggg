@@ -18,6 +18,10 @@ export const Container = styled.div`
 
   margin: 10px 20px;
 
+  :hover {
+    border: 5px double var(--pale-gold);
+  }
+
   figure {
     width: 120px;
     height: 120px;
@@ -50,5 +54,11 @@ export const Container = styled.div`
 
   button {
     margin: 10px 15px;
+
+    :hover {
+      background-color: var(--pale-gold);
+      border: 1px solid var(--white);
+      color: var(--white);
+    }
   }
 `;
